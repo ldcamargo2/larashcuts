@@ -1,14 +1,14 @@
 {
-  "name": "innovareti/laravel-aux",
+  "name": "ldcamargo/larashcuts",
   "description": "",
   "homepage": "https://github.com/innovareti/laravel-aux",
   "license": "MIT",
   "authors": [
     {
-      "name": "Gilberto Giro Resende",
-      "email": "gilberto.giro.resende@gmail.com",
-      "homepage": "https://github.com/GilbertoGiro",
-      "role": "Developer"
+      "name": "Luan de Camargo",
+      "email": "luan.camargo@outlook.com",
+      "homepage": "https://github.com/ldcamargo2",
+      "role": "Sr. FullStack Developer"
     }
   ],
   "require": {
@@ -30,7 +30,7 @@
   },
   "scripts": {
     "post-autoload-dump": [
-        "@php ./vendor/bin/testbench package:discover --ansi"
+      "@php ./vendor/bin/testbench package:discover --ansi"
     ]
   },
   "extra": {
