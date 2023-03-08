@@ -20,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "LaravelAux\\": "src/"
+      "LaraShCuts\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "LaravelAux\\": "tests/"
+      "LaraShCuts\\": "tests/"
     }
   },
   "scripts": {
@@ -34,12 +34,9 @@
     ]
   },
   "extra": {
-    "branch-alias": {
-      "dev-master": "1.11"
-    },
     "laravel": {
       "providers": [
-        "LaravelAux\\LaravelAuxServiceProvider"
+        "LaraShCuts\\LaraShCutsServiceProvider"
       ]
     }
   },
