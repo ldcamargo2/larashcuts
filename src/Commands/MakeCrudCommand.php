@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelAux\Commands;
+namespace LaraShCuts\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;

@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelAux;
+namespace LaraShCuts;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Schema;

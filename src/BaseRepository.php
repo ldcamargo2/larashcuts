@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelAux;
+namespace LaraShCuts;
 
 use Exception;
 use Illuminate\Support\Facades\DB;

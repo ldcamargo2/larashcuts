@@ -1,6 +1,6 @@
 <?php
 
-namespace LaravelAux;
+namespace LaraShCuts;
 
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Foundation\Http\FormRequest;
