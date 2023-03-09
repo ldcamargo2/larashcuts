@@ -1,6 +1,6 @@
 <?php
 
-namespace LarashCutsServiceProvider;
+namespace LarashCuts;
 
 use Illuminate\Support\ServiceProvider;
 use LarashCuts\Commands\MakeCrudCommand;
