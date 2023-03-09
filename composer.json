@@ -20,12 +20,12 @@
   },
   "autoload": {
     "psr-4": {
-      "LaraShCuts\\": "src/"
+      "LarashCuts\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "LaraShCuts\\": "tests/"
+      "LarashCuts\\": "tests/"
     }
   },
   "scripts": {
@@ -36,7 +36,7 @@
   "extra": {
     "laravel": {
       "providers": [
-        "LaraShCuts\\LaraShCutsServiceProvider"
+        "LarashCuts\\LaraShCutsServiceProvider"
       ]
     }
   },
