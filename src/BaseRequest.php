@@ -1,6 +1,6 @@
 <?php
 
-namespace LaraShCuts;
+namespace LarashCuts;
 
 use Illuminate\Contracts\Validation\Validator;
 use Illuminate\Foundation\Http\FormRequest;

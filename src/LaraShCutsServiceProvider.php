@@ -1,11 +1,11 @@
 <?php
 
-namespace LaraShCutsServiceProvider;
+namespace LarashCutsServiceProvider;
 
 use Illuminate\Support\ServiceProvider;
-use LaraShCutsServiceProvider\Commands\MakeCrudCommand;
+use LarashCuts\Commands\MakeCrudCommand;
 
-class LaraShCutsServiceProvider extends ServiceProvider
+class LarashCutsServiceProvider extends ServiceProvider
 {
     /**
      * Service Provider register method

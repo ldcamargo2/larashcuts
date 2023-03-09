@@ -1,6 +1,6 @@
 <?php
 
-namespace LaraShCuts;
+namespace LarashCuts;
 
 use Exception;
 use Illuminate\Support\Facades\DB;

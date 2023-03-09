@@ -1,6 +1,6 @@
 <?php
 
-namespace LaraShCuts;
+namespace LarashCuts;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Foundation\Http\FormRequest;

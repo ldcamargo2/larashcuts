@@ -1,6 +1,6 @@
 <?php
 
-namespace LaraShCuts\Commands;
+namespace LarashCuts\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Str;
