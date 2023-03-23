@@ -310,7 +310,9 @@ abstract class BaseService
      */
     private function columnExists($value): bool
     {
-        return true;
+        $columns = $this->repository->getFillable();
+        return in_array($value, $columns);
+        
         // return Schema::hasColumn($this->repository->getTable(), $value);
     }
 
@@ -416,8 +418,8 @@ abstract class BaseService
      */
     private function whereInColumn($value): void
     {
-        $string = explode('[', $value);
-        $column = $string[0];
+        $string = explode('][', $value);
+        $column = substr($string[0], 1, 99);
         $value = substr($string[1], 0, -1);
         $value = explode(',', $value);
         $this->result = $this->result->whereIn($column, $value);
